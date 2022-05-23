@@ -16,14 +16,19 @@ public class lineComparison {
 		{
 			System.out.println("lines are equal");
 		}		
-		else
-		
+		else if ( length1 > length2 )
 		{
-			System.out.println("lines are not equal");
+			System.out.println("line1 is greater than line2");
+		}
+		else
+		{
+			System.out.println("line1 is less than line2");
 		}
 	}
 
 }
+
+
 
 
 
